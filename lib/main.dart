@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       ),
       home: (MediaQuery.of(context).size.width < 600)
           ? const MobileMainScreen()
-          : const DeskMainScreen(),
+          : const MobileMainScreen(),
     );
   }
 }
